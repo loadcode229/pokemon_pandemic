@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require "bundler/setup"
-require "pokemon_pandemic"
+#require "bundler/setup"
+require_relative "../lib/pokemon_pandemic"
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
@@ -13,4 +13,3 @@ require "pokemon_pandemic"
 require "irb"
 IRB.start(__FILE__)
 
-#We can mess around with the program with this file through the IRB(terminal, console).
